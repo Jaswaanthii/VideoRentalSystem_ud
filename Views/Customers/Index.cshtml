@@ -17,6 +17,7 @@ else
     <table class="table table-bordered table-hover">
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Customer</th>
                 <th>Membership Type</th>
                 <th>Date of birth</th>
@@ -26,9 +27,10 @@ else
             @foreach (var customer in Model)
             {
                 <tr>
+                    <td>@customer.Id</td>
                     <td>@Html.ActionLink(customer.Name, "Edit", "Customers", new { id = customer.Id }, null)</td>
                     <td>@customer.MembershipType.Name</td>
-                    <td>@customer.Id</td>
+                    <td>@customer.Birthdate</td>
                 </tr>
             }
         </tbody>
