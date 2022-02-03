@@ -248,6 +248,10 @@
     <Compile Include="Migrations\202202031044532_validationMovies.Designer.cs">
       <DependentUpon>202202031044532_validationMovies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202031306304_validation.cs" />
+    <Compile Include="Migrations\202202031306304_validation.Designer.cs">
+      <DependentUpon>202202031306304_validation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -388,6 +392,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202031044532_validationMovies.resx">
       <DependentUpon>202202031044532_validationMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202031306304_validation.resx">
+      <DependentUpon>202202031306304_validation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

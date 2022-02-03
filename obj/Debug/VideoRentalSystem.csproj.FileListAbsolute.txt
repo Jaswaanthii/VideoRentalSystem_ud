@@ -255,3 +255,4 @@ C:\Users\ACER\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\ACER\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.pdb
 C:\Users\ACER\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.ValidationChange.resources
 C:\Users\ACER\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.validationMovies.resources
+C:\Users\ACER\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.validation.resources
