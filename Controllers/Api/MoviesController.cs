@@ -1,99 +1,82 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using VideoRentalSystem.Dtos;
 using VideoRentalSystem.Models;
-using VideoRentalSystem.ViewModels;
 
-namespace VideoRentalSystem.Controllers
+namespace VideoRentalSystem.Controllers.Api
 {
-    public class MovieController : Controller
+    public class MoviesController : ApiController
     {
         private ApplicationDbContext _context;
 
-        public MovieController()
+        public MoviesController()
         {
             _context = new ApplicationDbContext();
         }
-        public ViewResult Index()
+        public IEnumerable<MovieDto> GetMovies()
         {
-            var movies = _context.Movies.Include(m => m.Genre).ToList();
-
-            return View(movies);
+            return _context.Movies.ToList().Select(Mapper.Map<Movie, MovieDto>);
         }
 
-        public ViewResult New()
+        public IHttpActionResult GetMovie(int id)
         {
-            var genres = _context.Genres.ToList();
+            var Movie = _context.Movies.SingleOrDefault(c => c.Id == id);
 
-            var viewModel = new MovieFormViewModel
-            {
-                Genres = genres,
-                ReleaseDate = DateTime.Today
-            };
+            if (Movie == null)
+                return NotFound();
 
-            return View("MovieForm", viewModel);
+            return Ok(Mapper.Map<Movie, MovieDto>(Movie));
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Save(Movie movie)
+        public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
             if (!ModelState.IsValid)
-            {
-                var viewModel = new MovieFormViewModel
-                {
-                    Genres = _context.Genres.ToList()
+                return BadRequest();
 
-                };
-                return View("MovieForm", viewModel);
-            }
-            if (movie.Id == 0)
-            {
-                movie.DateAdded = DateTime.Now;
-                _context.Movies.Add(movie);
-            }
-            else
-            {
-                var movieInDb = _context.Movies.Single(m => m.Id == movie.Id);
-                movieInDb.Name = movie.Name;
-                movieInDb.GenreId = movie.GenreId;
-                movieInDb.NumberInStock = movie.NumberInStock;
-                movieInDb.ReleaseDate = movie.ReleaseDate;
-            }
+            var Movie = Mapper.Map<MovieDto, Movie>(movieDto);
+            _context.Movies.Add(Movie);
+            _context.SaveChanges();
+
+            movieDto.Id = Movie.Id;
+            return Created(new Uri(Request.RequestUri + "/" + Movie.Id), movieDto);
+        }
+
+        [HttpPut]
+        public void UpdateMovie(int id, MovieDto movieDto)
+        {
+            if (!ModelState.IsValid)
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+
+            var movieInDb = _context.Movies.SingleOrDefault(c => c.Id == id);
+
+            if (movieInDb == null)
+                throw new HttpResponseException(HttpStatusCode.NotFound);
+
+            Mapper.Map(movieDto, movieInDb);
 
             _context.SaveChanges();
 
-            return RedirectToAction("Index", "Movies");
         }
 
-        public ActionResult Edit(int id)
+        // DELETE /api/movies/1
+        [HttpDelete]
+        public IHttpActionResult DeleteMovie(int id)
         {
-            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
+            var movieInDb = _context.Movies.SingleOrDefault(c => c.Id == id);
 
-            if (movie == null)
-                return HttpNotFound();
+            if (movieInDb == null)
+                return NotFound();
 
-            var viewModel = new MovieFormViewModel(movie)
-            {
-                Genres = _context.Genres.ToList()
-            };
+            _context.Movies.Remove(movieInDb);
+            _context.SaveChanges();
 
-            return View("MovieForm", viewModel);
-        }
-
-
-        public ActionResult Details(int id)
-        {
-            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
-
-            if (movie == null)
-                return HttpNotFound();
-
-            return View(movie);
-
+            return Ok();
         }
 
     }
