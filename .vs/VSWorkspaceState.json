@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App_Start",
+    "\\Controllers",
+    "\\Controllers\\Api",
+    "\\Views",
+    "\\Views\\Customers",
+    "\\Views\\Movies"
   ],
-  "SelectedNode": "\\VideoRentalSystem.sln",
+  "SelectedNode": "\\Views\\Movies\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
