@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\App_Start",
-    "\\Controllers",
-    "\\Controllers\\Api",
-    "\\Views",
     "\\Views\\Customers",
     "\\Views\\Movies"
   ],
-  "SelectedNode": "\\Views\\Movies\\Index.cshtml",
+  "SelectedNode": "\\App_Start\\MappingProfile.cs",
   "PreviewInSolutionExplorer": false
 }

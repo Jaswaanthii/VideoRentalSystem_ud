@@ -24,6 +24,7 @@ namespace VideoRentalSystem.Controllers.Api
             return _context.Movies.Include(m => m.Genre).ToList().Select(Mapper.Map<Movie, MovieDto>);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public IHttpActionResult GetMovie(int id)
         {
             var Movie = _context.Movies.SingleOrDefault(c => c.Id == id);
@@ -34,6 +35,7 @@ namespace VideoRentalSystem.Controllers.Api
             return Ok(Mapper.Map<Movie, MovieDto>(Movie));
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         [HttpPost]
         public IHttpActionResult CreateMovie(MovieDto movieDto)
         {
@@ -48,6 +50,7 @@ namespace VideoRentalSystem.Controllers.Api
             return Created(new Uri(Request.RequestUri + "/" + Movie.Id), movieDto);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         [HttpPut]
         public void UpdateMovie(int id, MovieDto movieDto)
         {
@@ -65,6 +68,7 @@ namespace VideoRentalSystem.Controllers.Api
 
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         // DELETE /api/movies/1
         [HttpDelete]
         public IHttpActionResult DeleteMovie(int id)
