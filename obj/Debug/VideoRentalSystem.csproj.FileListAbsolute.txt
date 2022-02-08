@@ -788,3 +788,8 @@ C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.pdb
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.SeedUsers.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDrivingLicenseToApplicationUser.resources
+C:\Users\aadrammeh\Desktop\VideoRental\bin\Glimpse.Ado.dll
+C:\Users\aadrammeh\Desktop\VideoRental\bin\Glimpse.AspNet.dll
+C:\Users\aadrammeh\Desktop\VideoRental\bin\Glimpse.Core.dll
+C:\Users\aadrammeh\Desktop\VideoRental\bin\Glimpse.EF6.dll
+C:\Users\aadrammeh\Desktop\VideoRental\bin\Glimpse.Mvc5.dll
