@@ -25,5 +25,7 @@ namespace VideoRentalSystem.Models
         [Required (ErrorMessage ="Please Enter Stock Value")]
         [Range(1, 100)]
         public int NumberInStock { get; set; }
+
+        public int NumberAvailable { get; set; }
     }
 }
