@@ -12,6 +12,10 @@ namespace VideoRentalSystem.Models
         public DateTime? DateReturned { get; set; }
         public DateTime DateRented { get; set; }
 
+        public int NumberOfMoviesRented { get; set; }
+
+        public DateTime DueDate { get; set; }
+
         [Required]
         public Movie Movie { get; set; }
 

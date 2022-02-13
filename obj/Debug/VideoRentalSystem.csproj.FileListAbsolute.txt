@@ -935,3 +935,7 @@ C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.pdb
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddRentalsModel.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberAvailableToMovieClass.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddLatestChanges.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberofMoviesToRental.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDatePropertyToRentals.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNewPropertiesToMovieModel.resources

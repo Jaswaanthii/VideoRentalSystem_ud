@@ -25,6 +25,10 @@ namespace VideoRentalSystem.Dtos
 
         [Range(1, 20)]
         public byte NumberInStock { get; set; }
+
+        public string Quality { get; set; }
+        public string Description { get; set; }
+
     }
 }
 

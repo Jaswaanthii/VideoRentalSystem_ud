@@ -1,5 +1,7 @@
-﻿using System;
+﻿using AutoMapper;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -16,6 +18,13 @@ namespace VideoRentalSystem.Controllers.Api
         public NewRentalController()
         {
             _context = new ApplicationDbContext();
+        }
+
+        
+        public IEnumerable<NewRentalDto> GetRentals()
+        {
+            return _context.Rentals.Include(m => m.Customer).Include(m => m.Movie).ToList().Select(Mapper.Map<Rental, NewRentalDto>);
+            
         }
 
         [HttpPost]
@@ -35,7 +44,8 @@ namespace VideoRentalSystem.Controllers.Api
                 {
                     Customer = customer,
                     Movie = movie,
-                    DateRented = DateTime.Now
+                    DateRented = DateTime.Now,
+                    DueDate = DateTime.Now.AddDays(14)
                 };
 
                 _context.Rentals.Add(rental);

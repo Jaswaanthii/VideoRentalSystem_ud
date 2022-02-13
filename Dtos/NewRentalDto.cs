@@ -9,5 +9,7 @@ namespace VideoRentalSystem.Dtos
     {
         public int CustomerId { get; set; }
         public List<int> MovieIds { get; set; }
+
+        public int MovieId { get; set; }
     }
 }

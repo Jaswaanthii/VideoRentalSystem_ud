@@ -28,6 +28,9 @@ namespace VideoRentalSystem.ViewModels
         [Required]
         public int? NumberInStock { get; set; }
 
+        public string Description { get; set; }
+        public string Quality { get; set; }
+
 
         public string Title
         {
@@ -49,6 +52,8 @@ namespace VideoRentalSystem.ViewModels
             ReleaseDate = movie.ReleaseDate;
             NumberInStock = movie.NumberInStock;
             GenreId = movie.GenreId;
+            Description = movie.Description;
+            Quality = movie.Quality;
         }
     }
 }

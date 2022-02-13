@@ -27,5 +27,8 @@ namespace VideoRentalSystem.Models
         public int NumberInStock { get; set; }
 
         public int NumberAvailable { get; set; }
+
+        public string Quality { get; set; }
+        public string Description { get; set; }
     }
 }

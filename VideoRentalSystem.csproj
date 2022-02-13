@@ -297,6 +297,22 @@
     <Compile Include="Migrations\202202101127473_AddNumberAvailableToMovieClass.Designer.cs">
       <DependentUpon>202202101127473_AddNumberAvailableToMovieClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202122245011_AddLatestChanges.cs" />
+    <Compile Include="Migrations\202202122245011_AddLatestChanges.Designer.cs">
+      <DependentUpon>202202122245011_AddLatestChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202122248010_AddNumberofMoviesToRental.cs" />
+    <Compile Include="Migrations\202202122248010_AddNumberofMoviesToRental.Designer.cs">
+      <DependentUpon>202202122248010_AddNumberofMoviesToRental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202130008243_AddDueDatePropertyToRentals.cs" />
+    <Compile Include="Migrations\202202130008243_AddDueDatePropertyToRentals.Designer.cs">
+      <DependentUpon>202202130008243_AddDueDatePropertyToRentals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.cs" />
+    <Compile Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.Designer.cs">
+      <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Rental.cs" />
@@ -567,6 +583,8 @@
     <Content Include="Views\Movies\MovieForm.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
     <Content Include="Views\Rentals\New.cshtml" />
+    <Content Include="Views\Rentals\List.cshtml" />
+    <Content Include="Views\Rentals\AllRentals.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -644,6 +662,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202101127473_AddNumberAvailableToMovieClass.resx">
       <DependentUpon>202202101127473_AddNumberAvailableToMovieClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202122245011_AddLatestChanges.resx">
+      <DependentUpon>202202122245011_AddLatestChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202122248010_AddNumberofMoviesToRental.resx">
+      <DependentUpon>202202122248010_AddNumberofMoviesToRental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202130008243_AddDueDatePropertyToRentals.resx">
+      <DependentUpon>202202130008243_AddDueDatePropertyToRentals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.resx">
+      <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
