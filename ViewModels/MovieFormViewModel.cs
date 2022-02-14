@@ -53,7 +53,7 @@ namespace VideoRentalSystem.ViewModels
             NumberInStock = movie.NumberInStock;
             GenreId = movie.GenreId;
             Description = movie.Description;
-            Quality = movie.Quality;
+           
         }
     }
 }

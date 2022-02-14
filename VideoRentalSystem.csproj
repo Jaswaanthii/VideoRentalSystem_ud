@@ -313,6 +313,10 @@
     <Compile Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.Designer.cs">
       <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202202141008202_RemoveQualityFromMovie.cs" />
+    <Compile Include="Migrations\202202141008202_RemoveQualityFromMovie.Designer.cs">
+      <DependentUpon>202202141008202_RemoveQualityFromMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Rental.cs" />
@@ -674,6 +678,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.resx">
       <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202202141008202_RemoveQualityFromMovie.resx">
+      <DependentUpon>202202141008202_RemoveQualityFromMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

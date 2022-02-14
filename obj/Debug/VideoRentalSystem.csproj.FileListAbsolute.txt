@@ -939,3 +939,4 @@ C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddL
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberofMoviesToRental.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDatePropertyToRentals.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNewPropertiesToMovieModel.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.RemoveQualityFromMovie.resources
