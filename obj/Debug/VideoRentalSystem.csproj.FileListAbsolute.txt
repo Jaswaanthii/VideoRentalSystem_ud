@@ -934,12 +934,8 @@ C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.pdb
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddRentalsModel.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberAvailableToMovieClass.resources
-C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddLatestChanges.resources
-C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberofMoviesToRental.resources
-C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDatePropertyToRentals.resources
-C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNewPropertiesToMovieModel.resources
-C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.RemoveQualityFromMovie.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddRentalsModel.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberAvailableToMovieClass.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDate.resources
+C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDate.resources

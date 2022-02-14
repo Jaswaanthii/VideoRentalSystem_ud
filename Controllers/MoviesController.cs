@@ -36,6 +36,7 @@ namespace VideoRentalSystem.Controllers
                 ReleaseDate = DateTime.Today
         };
 
+            
             return View("MovieForm", viewModel);
         }
 
@@ -86,7 +87,7 @@ namespace VideoRentalSystem.Controllers
                 Genres = _context.Genres.ToList()
             };
 
-            return View("MovieForm", viewModel);
+            return View("MovieFormEdit", viewModel);
         }
 
 

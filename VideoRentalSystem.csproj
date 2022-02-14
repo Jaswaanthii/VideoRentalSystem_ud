@@ -573,6 +573,7 @@
     <Content Include="Views\Rentals\New.cshtml" />
     <Content Include="Views\Rentals\List.cshtml" />
     <Content Include="Views\Rentals\AllRentals.cshtml" />
+    <Content Include="Views\Movies\MovieFormEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
