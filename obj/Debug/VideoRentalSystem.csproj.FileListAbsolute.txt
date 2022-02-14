@@ -764,7 +764,6 @@ C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.InitialModel.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddMembershipType.resources
@@ -940,3 +939,7 @@ C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddN
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDatePropertyToRentals.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNewPropertiesToMovieModel.resources
 C:\Users\hp\Source\Repos\VideoRental\obj\Debug\VideoRentalSystem.Migrations.RemoveQualityFromMovie.resources
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddRentalsModel.resources
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddNumberAvailableToMovieClass.resources
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddDueDate.resources

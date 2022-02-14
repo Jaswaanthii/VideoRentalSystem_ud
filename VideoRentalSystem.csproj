@@ -297,25 +297,9 @@
     <Compile Include="Migrations\202202101127473_AddNumberAvailableToMovieClass.Designer.cs">
       <DependentUpon>202202101127473_AddNumberAvailableToMovieClass.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202202122245011_AddLatestChanges.cs" />
-    <Compile Include="Migrations\202202122245011_AddLatestChanges.Designer.cs">
-      <DependentUpon>202202122245011_AddLatestChanges.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202202122248010_AddNumberofMoviesToRental.cs" />
-    <Compile Include="Migrations\202202122248010_AddNumberofMoviesToRental.Designer.cs">
-      <DependentUpon>202202122248010_AddNumberofMoviesToRental.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202202130008243_AddDueDatePropertyToRentals.cs" />
-    <Compile Include="Migrations\202202130008243_AddDueDatePropertyToRentals.Designer.cs">
-      <DependentUpon>202202130008243_AddDueDatePropertyToRentals.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.cs" />
-    <Compile Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.Designer.cs">
-      <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202202141008202_RemoveQualityFromMovie.cs" />
-    <Compile Include="Migrations\202202141008202_RemoveQualityFromMovie.Designer.cs">
-      <DependentUpon>202202141008202_RemoveQualityFromMovie.cs</DependentUpon>
+    <Compile Include="Migrations\202202141159278_AddDueDate.cs" />
+    <Compile Include="Migrations\202202141159278_AddDueDate.Designer.cs">
+      <DependentUpon>202202141159278_AddDueDate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -667,20 +651,8 @@
     <EmbeddedResource Include="Migrations\202202101127473_AddNumberAvailableToMovieClass.resx">
       <DependentUpon>202202101127473_AddNumberAvailableToMovieClass.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202122245011_AddLatestChanges.resx">
-      <DependentUpon>202202122245011_AddLatestChanges.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202122248010_AddNumberofMoviesToRental.resx">
-      <DependentUpon>202202122248010_AddNumberofMoviesToRental.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202130008243_AddDueDatePropertyToRentals.resx">
-      <DependentUpon>202202130008243_AddDueDatePropertyToRentals.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202130016200_AddNewPropertiesToMovieModel.resx">
-      <DependentUpon>202202130016200_AddNewPropertiesToMovieModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202202141008202_RemoveQualityFromMovie.resx">
-      <DependentUpon>202202141008202_RemoveQualityFromMovie.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202202141159278_AddDueDate.resx">
+      <DependentUpon>202202141159278_AddDueDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
