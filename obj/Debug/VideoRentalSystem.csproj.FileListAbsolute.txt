@@ -938,3 +938,4 @@ C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.CoreCo
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.CopyComplete
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.pdb
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
