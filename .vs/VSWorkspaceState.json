@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views",
+    "\\Views\\Movies"
   ],
-  "SelectedNode": "\\VideoRentalSystem.sln",
+  "SelectedNode": "\\Views\\Movies\\List.cshtml",
   "PreviewInSolutionExplorer": false
 }

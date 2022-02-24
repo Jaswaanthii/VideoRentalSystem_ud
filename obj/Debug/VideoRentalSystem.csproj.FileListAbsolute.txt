@@ -912,6 +912,7 @@ C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\aadrammeh\Desktop\VideoRental\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.InitialModel.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.Migrations.AddMembershipType.resources
@@ -938,4 +939,3 @@ C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.CoreCo
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.CopyComplete
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.dll
 C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.pdb
-C:\Users\aadrammeh\Desktop\VideoRental\obj\Debug\VideoRentalSystem.csproj.AssemblyReference.cache
