@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\App_Start"
   ],
-  "SelectedNode": "\\VideoRentalSystem.sln",
+  "SelectedNode": "\\App_Start\\MappingProfile.cs",
   "PreviewInSolutionExplorer": false
 }
